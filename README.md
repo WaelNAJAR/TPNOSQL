@@ -78,15 +78,15 @@ Redis offre les fonctionnalités de création, lecture, modification et suppress
 
 **Création d'une entrée :**
 ```redis
-127.0.0.1:6379> SET user:1234 "ghassen"
+127.0.0.1:6379> SET user:1234 "wael"
 OK
 ```
-Cela ajoute une clé `user:1234` associée à la valeur `ghassen`.
+Cela ajoute une clé `user:1234` associée à la valeur `wael`.
 
 **Lecture d'une valeur :**
 ```redis
 127.0.0.1:6379> GET user:1234
-"ghassen"
+"wael"
 ```
 Cette commande extrait la valeur liée à la clé `user:1234`.
 
@@ -175,9 +175,9 @@ LPOP mesCours
 
 **Création et ajout :**
 ```redis
-SADD myUsers ghassen
+SADD myUsers wael
 ```
-Insère l'élément `ghassen` dans l'ensemble `myUsers`.
+Insère l'élément `wael` dans l'ensemble `myUsers`.
 
 **Consultation :**
 ```redis
@@ -187,9 +187,9 @@ Affiche tous les membres de l'ensemble `myUsers`.
 
 **Retrait d'un élément :**
 ```redis
-SREM myUsers ghassen
+SREM myUsers wael
 ```
-Supprime l'élément `ghassen` de l'ensemble.
+Supprime l'élément `wael` de l'ensemble.
 
 ---
 
